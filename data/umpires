@@ -1,0 +1,2 @@
+{"$$indexCreated":{"fieldName":"name","unique":true,"sparse":false}}
+{"$$indexCreated":{"fieldName":"tournament_key","unique":false,"sparse":false}}
