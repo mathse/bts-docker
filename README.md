@@ -1,14 +1,12 @@
-# courtspot-docker
+# bts-docker
 
-## Was ist CourtSpot?
+## Was ist BTS?
 
-"Spielstandanzeige & Internet-Liveticker für die deutsche Badminton Bundesliga"
-
-Mehr Infos findest du unter CourtSpot.de
+Infos findest du unter https://github.com/phihag/bts
 
 ## Was macht dieses Repo?
 
-Es stellt einen Docker-Umgebung fuer CourtSpot zur Verfuegung
+Es stellt einen Docker-Umgebung fuer BTS zur Verfuegung
 
 ## Vorraussetzungen
 
@@ -19,7 +17,6 @@ https://docs.docker.com/compose/install/
 
 ## Wie benutzt man es?
 
-    git clone https://github.com/mathse/courtspot-docker
-    cd courtspot-docker
+    git clone https://github.com/mathse/bts-docker
+    cd bts-docker
     sudo docker-compose up
-# bts-docker
