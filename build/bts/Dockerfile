@@ -12,3 +12,5 @@ EXPOSE 4000
 # run apache
 RUN make -C ./bts
 CMD cd /bts && /usr/bin/env node /bts/bts/bts.js
+
+

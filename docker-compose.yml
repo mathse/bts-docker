@@ -1,10 +1,14 @@
-version: '2'
+version: "2"
 services:
     web:
-        build: .
+        build: build/bts/.
         ports:
             - "4000:4000"
-        dns:
-            - 8.8.8.8
         volumes:
             - ./data:/bts/data
+        restart: always
+    hub:
+        build: build/hub/.
+        ports:
+            - "3001:3001"
+        restart: always
